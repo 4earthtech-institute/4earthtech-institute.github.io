@@ -10,11 +10,10 @@ Our mission is to bridge the gap between scientific discovery and real-world env
 
 ## Research Focus
 
-- Climate Change Mitigation
-- Renewable Energy Solutions
-- Sustainable Agriculture
-- Environmental Conservation
-- Green Technology Innovation
+- Climate change adaptation
+- Flooding and drought control
+- Water quality modeling
+- Hydrogeologic modeling
 
 ## Website
 
