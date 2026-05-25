@@ -20,7 +20,7 @@
 
         header {
             background:
-                linear-gradient(rgba(20, 45, 75, 0.72), rgba(20, 45, 75, 0.72)),
+                linear-gradient(rgba(20, 45, 75, 0.45), rgba(20, 45, 75, 0.45)),
                 url('background.jpg');
             background-size: cover;
             background-position: center;
@@ -76,8 +76,8 @@
         nav a {
             color: white;
             text-decoration: none;
-            padding: 0.6rem 1.5rem;
-            margin: 0 0.4rem;
+            padding: 0.6rem 1.2rem;
+            margin: 0 0.25rem;
             display: inline-block;
             border-radius: 5px;
             font-weight: 500;
@@ -110,10 +110,48 @@
             font-size: 1.8rem;
         }
 
+        .section h3 {
+            color: #16324f;
+            margin-top: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
         ul {
             list-style-position: inside;
             line-height: 2;
             padding-left: 0.5rem;
+        }
+
+        .org-list li {
+            margin-bottom: 0.35rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        .team-card {
+            background: #f8fbff;
+            border-left: 5px solid #1f5d8f;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .team-card h3 {
+            color: #16324f;
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .team-role {
+            font-weight: 600;
+            color: #2f5f8f;
+            margin-bottom: 0.8rem;
         }
 
         a {
@@ -148,7 +186,7 @@
             }
 
             .logo {
-                 width: 110px;
+                width: 110px;
             }
 
             .header-text h1 {
@@ -181,7 +219,9 @@
     <nav>
         <a href="#about">About</a>
         <a href="#mission">Mission</a>
-        <a href="#research">Research Focus</a>
+        <a href="#research">Research</a>
+        <a href="#organization">Organization</a>
+        <a href="#team">Key Personnel</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -189,14 +229,14 @@
         <div class="section" id="about">
             <h2>About</h2>
             <p>
-                4EarthTech is a nonprofit organization whose purpose is to advance environmental science by turning research into practical solutions and technologies. It aims to transfer knowledge through sound science, effective platforms, and easy access, so that both developing and developed countries can adopt and adapt environmental technologies. It also seeks to create fair opportunities for disadvantaged communities to participate in science-based projects, support diverse leadership, and contribute to greater wealth and well-being across communities.
+                4EarthTech is a nonprofit organization advancing environmental science by turning research into practical solutions and technologies. We transfer knowledge through sound science, effective platforms, and accessible tools so that communities in both developing and developed countries can adopt and adapt environmental technologies.
             </p>
         </div>
 
         <div class="section" id="mission">
             <h2>Mission</h2>
             <p>
-                Our mission is to bridge the gap between scientific discovery and real-world environmental solutions, ensuring that innovations benefit communities worldwide.
+                Our mission is to bridge the gap between scientific discovery and real-world environmental solutions while creating fair opportunities for disadvantaged communities to participate in science-based projects, support diverse leadership, and improve community wealth and well-being.
             </p>
         </div>
 
@@ -208,6 +248,75 @@
                 <li>Water quality modeling</li>
                 <li>Hydrogeologic modeling</li>
             </ul>
+        </div>
+
+        <div class="section" id="organization">
+            <h2>Organization</h2>
+
+            <h3>Board</h3>
+            <ul class="org-list">
+                <li><strong>Nguyen Thi Nhu Khanh</strong> — President & Founder</li>
+                <li><strong>Tran Huu Tuan</strong> — Secretary & Co-Founder</li>
+                <li><strong>Vu Chi Thanh</strong> — Treasurer & Co-Founder</li>
+            </ul>
+
+            <h3>Members</h3>
+            <ul class="org-list">
+                <li><strong>Nguyen Thi Tuong Vy</strong> — Geoinformatics Engineer</li>
+            </ul>
+
+            <h3>Advisors</h3>
+            <ul class="org-list">
+                <li><strong>Tran Thanh Tung</strong> — Consul; Head of Office of Science and Technology, Consulate General of the Socialist Republic of Vietnam</li>
+                <li><strong>Tri Le</strong> — Process Engineer, Jacobs; Founder, VWES</li>
+            </ul>
+
+            <h3>Collaborators</h3>
+            <ul class="org-list">
+                <li><strong>Le Van Giang</strong> — Senior Scientist of Chemical Environmental Engineering; Founder, Resource Recovery and Mineral Refining Group; Chief, VNU–Key Laboratory of Sustainable Energy and Resource Recovery</li>
+                <li><strong>Nguyen Thi Hien</strong> — Lecturer/Researcher, Faculty of Environment and Labour Safety, Ton Duc Thang University</li>
+                <li><strong>Tran Thi Yen Nhi</strong> — Geospatial Analyst, Hola Cultura</li>
+            </ul>
+        </div>
+
+        <div class="section" id="team">
+            <h2>Key Personnel</h2>
+
+            <div class="team-grid">
+
+                <div class="team-card">
+                    <h3>Nguyen Thi Nhu Khanh, Ph.D.</h3>
+                    <div class="team-role">President & Founder</div>
+                    <p>
+                        Environmental and water resources scientist specializing in climate adaptation, hydrologic, hydrogeologic, and water-quality modeling, scenario analysis, GIS-informed analysis, and machine learning for water-quality vulnerability assessment.
+                    </p>
+                </div>
+
+                <div class="team-card">
+                    <h3>Tran Huu Tuan, Ph.D.</h3>
+                    <div class="team-role">Secretary & Co-Founder</div>
+                    <p>
+                        Environmental engineer specializing in environmental microbiology, bioremediation, biodegradation of persistent and emerging pollutants, wastewater treatment, microplastics, and ecological risk assessment.
+                    </p>
+                </div>
+
+                <div class="team-card">
+                    <h3>Vu Chi Thanh, Ph.D., P.E.</h3>
+                    <div class="team-role">Treasurer & Co-Founder</div>
+                    <p>
+                        Environmental engineer with expertise in water and wastewater treatment design, NPDES permitting, PFAS-related regulatory engagement, hydraulic and process modeling, and environmental engineering research and teaching.
+                    </p>
+                </div>
+
+                <div class="team-card">
+                    <h3>Nguyen Thi Tuong Vy, GISP</h3>
+                    <div class="team-role">Geoinformatics Engineer</div>
+                    <p>
+                        GIS and geospatial analytics specialist focused on enterprise GIS, web GIS applications, dashboards, Python/SQL automation, remote sensing, predictive spatial analysis, machine learning, and standardized reporting.
+                    </p>
+                </div>
+
+            </div>
         </div>
 
         <div class="section" id="contact">
