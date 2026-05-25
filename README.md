@@ -2,7 +2,7 @@
 
 ## About
 
-4EarthTech Research Institute turns environmental research into impactful solutions, expanding equitable access to innovation for a more sustainable future.
+4EarthTech is a nonprofit organization whose purpose is to advance environmental science by turning research into practical solutions and technologies. It aims to transfer knowledge through sound science, effective platforms, and easy access, so that both developing and developed countries can adopt and adapt environmental technologies. It also seeks to create fair opportunities for disadvantaged communities to participate in science-based projects, support diverse leadership, and contribute to greater wealth and well-being across communities.
 
 ## Mission
 
