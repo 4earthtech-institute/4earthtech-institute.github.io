@@ -17,7 +17,7 @@ Our mission is to bridge the gap between scientific discovery and real-world env
 
 ## Website
 
-Visit our GitHub Pages site: [4EarthTech Research Institute](https://4earthtech-institute.github.io/4earthtech.github.io)
+Visit our GitHub Pages site: [4EarthTech Research Institute](https://4earthtech-institute.github.io)
 
 ## Contact
 
