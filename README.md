@@ -17,12 +17,12 @@ Our mission is to bridge the gap between scientific discovery and real-world env
 
 ## Website
 
-Visit our GitHub Pages site: [https://4earthtech-institute.github.io/](https://4earthtech-institute.github.io/)
+Visit our GitHub Pages site: [https://4earthtech-institute.github.io/](https://4earthtech-institute.github.io/4earthtech-institute.github.io/)
 
 ## Contact
 
 For inquiries and collaborations, please visit our GitHub organization:
-- GitHub Organization: [@4earthtech-institute](https://github.com/4earthtech-institute)
+- GitHub Organization: [4eathtech@gmailcom](https://github.com/4earthtech-institute)
 
 ---
 
